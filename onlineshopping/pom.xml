@@ -9,7 +9,12 @@
 	<name>onlineshopping Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-
+		<!-- linking backend project -->
+		<dependency>
+			<groupId>net.kzn</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -25,7 +30,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.3.6.RELEASE</version>
 		</dependency>
-		
+
 		<!-- jstl -->
 		<dependency>
 			<groupId>jstl</groupId>
